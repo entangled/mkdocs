@@ -28,6 +28,12 @@
     
       <link rel="stylesheet" href="assets/stylesheets/main.6e35a1a6.min.css">
       
+        <link rel="stylesheet" href="assets/stylesheets/palette.a46bcfb3.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#03a9f4">
       
     
     
@@ -49,7 +55,10 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="">
   
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -415,7 +424,7 @@ repo_url: https://github.com/entangled/mkdocs
 site_description: &gt;
         Setup an MkDocs project that works with Entangled for Literate Programming.
 site_author: Johan Hidding
-copyright: Netherlands eScience Center</code></pre></div>
+copyright: "&lt;a href=\"https://esciencecenter.nl/\"&gt;Netherlands eScience Center&lt;/a&gt;"</code></pre></div>
 
 <p>and the configuration</p>
 <div class="lp-fragment"><div class="lp-ref">«file://mkdocs.yml»</div><pre><code class=yaml>&lt;&lt;theme&gt;&gt;
@@ -437,6 +446,7 @@ extra_javascript:
 <div class="lp-fragment"><div class="lp-ref">«theme»</div><pre><code class=yaml>theme:
         name: "material"
         palette:
+                primary: "light blue"
         #        scheme: "slate"</code></pre></div>
 
 <h2 id="annotating-code-blocks">Annotating code blocks<a class="headerlink" href="#annotating-code-blocks" title="Permanent link">&para;</a></h2>
@@ -505,7 +515,7 @@ extra_javascript:
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Netherlands eScience Center
+            <a href="https://esciencecenter.nl/">Netherlands eScience Center</a>
           </div>
         
         Made with
